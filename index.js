@@ -18,6 +18,7 @@ class Formatter {
         r.push(this.capitalize(word));
       }
     }
+    return r.join(" ")
 
   }
 
