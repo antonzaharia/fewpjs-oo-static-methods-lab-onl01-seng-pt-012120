@@ -7,7 +7,7 @@ class Formatter {
     return string.replace(/[^A-Za-z0-9- ']+/g, "");
   }
 
-  static (words) {
+  static titleize(words) {
     ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from']
   }
 }
