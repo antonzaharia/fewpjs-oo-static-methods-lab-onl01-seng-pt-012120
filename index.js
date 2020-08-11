@@ -11,11 +11,12 @@ class Formatter {
     let lows = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from'];
     let words = string.split(" ");
     let r = [];
+    for (let word of words) {
       if(lows.includes(word)){
         return word;
       } else {
         return this.capitalize(word);
       }
-    })
+    }
   }
 }
