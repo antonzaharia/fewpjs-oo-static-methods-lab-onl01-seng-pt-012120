@@ -10,7 +10,7 @@ class Formatter {
   static titleize(string) {
     let lows = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from'];
     let words = string.split(" ");
-    let r = words.map(function(word){
+    let r = [];
       if(lows.includes(word)){
         return word;
       } else {
