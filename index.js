@@ -4,6 +4,7 @@ class Formatter {
   }
 
   static sanitize(string) {
-    return string.replace(/[^A-Za-z0-9-\\s]+/g, "");
+    let r = string.replace(/[^A-Za-z0-9-\\s]+/g, "");
+    return r.replace(/[^A-Za-z0-9']+/g, "");
     }
 }
