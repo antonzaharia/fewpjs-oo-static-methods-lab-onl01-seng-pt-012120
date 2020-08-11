@@ -8,6 +8,6 @@ class Formatter {
   }
 
   static titleize(words) {
-    ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from']
+    let low = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from']
   }
 }
