@@ -8,6 +8,6 @@ class Formatter {
   }
 
   static (words) {
-    'the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from'
+    ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from']
   }
 }
