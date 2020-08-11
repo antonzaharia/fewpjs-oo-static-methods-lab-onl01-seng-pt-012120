@@ -18,5 +18,9 @@ class Formatter {
         return this.capitalize(word);
       }
     }
+    
   }
+
+
+  
 }
