@@ -17,5 +17,6 @@ class Formatter {
         return this.capitalize(word);
       }
     })
+    return r.join(" ")
   }
 }
