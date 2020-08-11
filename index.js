@@ -7,8 +7,8 @@ class Formatter {
     return string.replace(/[^A-Za-z0-9- ']+/g, "");
   }
 
-  static titleize(words) {
+  static titleize(string) {
     let lows = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from'];
-
+    let words = string.split(" ")
   }
 }
