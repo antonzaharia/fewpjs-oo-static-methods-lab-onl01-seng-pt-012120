@@ -13,9 +13,9 @@ class Formatter {
     let r = [];
     for (let word of words) {
       if(lows.includes(word)){
-        return word;
+        r.push(word);
       } else {
-        return this.capitalize(word);
+        r.push(this.capitalize(word));
       }
     }
 
