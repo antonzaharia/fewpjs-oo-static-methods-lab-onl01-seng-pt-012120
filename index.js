@@ -9,6 +9,6 @@ class Formatter {
 
   static titleize(string) {
     let lows = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from'];
-    let words = string.split(" ")
+    let words = string.split(" ");
   }
 }
